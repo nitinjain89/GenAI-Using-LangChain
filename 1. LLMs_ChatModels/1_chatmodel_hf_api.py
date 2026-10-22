@@ -11,6 +11,7 @@ load_dotenv()
 #     max_new_tokens=100
 # )
 # model = ChatHuggingFace(llm=llm)
+# ..
 
 model = ChatGroq(model='qwen/qwen3.8-27b')
 
