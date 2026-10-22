@@ -5,8 +5,10 @@ from langchain_groq import ChatGroq
 load_dotenv()
 
 # llm = HuggingFaceEndpoint(
+#     # repo_id='google/gemma-2-2b-it',
 #     repo_id="deepseek-ai/DeepSeek-R1",
-#     task = "text-generation"
+#     task = "text-generation",
+#     max_new_tokens=100
 # )
 # model = ChatHuggingFace(llm=llm)
 
